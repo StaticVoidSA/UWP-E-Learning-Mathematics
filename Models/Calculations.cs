@@ -28,7 +28,7 @@ namespace UWP_Maths_Quiz_New.Models
             return a * b; 
         }
         
-        public void Rem(int a, int b)
+        public int Rem(int a, int b)
         {
             return a % b;
         }
