@@ -185,7 +185,7 @@ namespace UWP_MyCTU_Maths_Quiz
             // Division
             if (answer3 == calc.Div(div1, div2))
             {
-                score++;
+                score = score + 1;
             }
             // Multiplication
             if (answer4 == calc.Mul(mul1, mul2))
